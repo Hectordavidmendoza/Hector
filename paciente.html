@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Registro paciente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <img class="" src="./Img/banner.jpg" alt="" width="100%" height="300">
+        </div>
+        <div class="container">
+            <nav>
+                <ul class="nav nav-tabs justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Registro</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Usuario.html">Registro de Usuario</a></li>
+                            <li><a class="dropdown-item" href="profesional.html">Registro de Profesional</a></li>
+                            <li><a class="dropdown-item" href="paciente.html">Registro de Paciente</a></li>
+                            
+                            
+                            
+                            <li><a class="dropdown-item" href="Historial.html">Registro de Historial</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Informacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Especialidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Consultas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tratamientos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Salir</a>
+                    </li>
+                </ul>
+            </nav>
+        
+            <h3 class="mb-3 text-center">Datos del paciente</h3>
+                    <div class="bg-white shadow rounded">
+                        <div class="row">
+                            <div class="col-md-12 pe-0">
+                                <center>
+
+                                    <img src="Img/logo.jpg" alt="" width="350px " class="text-center" >
+                                </center>
+                                <div class="form-left h-100 py-5 px-5">
+                                    <form action="" class="row g-4">
+                                            <div class="col-6">
+                                                <label>DNI <span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Cedula">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <label>foto<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="file" class="form-control" placeholder=" ">
+                                                </div>
+                                            </div> 
+                                            
+
+                                            <div class="col-6">
+                                                <label>Nombres<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su nombre">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Apellidos<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su apellido">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Fecha de Nacimiento<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="date" class="form-control" placeholder="Introdusca la Contraseña">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6">
+                                                <label>Sexo<span class="text-danger">*</span></label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>seleccionar</option>
+                                                    <option value="1">Masculino</option>
+                                                    <option value="2">Femenino</option>
+                                                    
+                                                  </select>
+                                                
+                                                
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Nombre del Representante<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su nombre">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Telefonos<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su telefono">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Sala<span class="text-danger">*</span></label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>seleccionar</option>
+                                                    <option value="1">Emergencia</option>
+                                                    <option value="2">Sala A</option>
+                                                    <option value="1">Laboratorios</option>
+                                                    <option value="2">Rayos X</option>
+                                                    <option value="2">Hospitalizacion</option>
+                                                  </select>
+                                                
+                                                
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Direccion<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su direccion">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Pais<span class="text-danger">*</span></label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>seleccionar</option>
+                                                    <option value="1">Masculino</option>
+                                                    <option value="2">Femenino</option>
+                                                    
+                                                  </select>
+                                                
+                                                
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Departamento<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su departamento">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Provincia<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su provincia">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Distrito<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="Introdusca su distrito">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Estado civil<span class="text-danger">*</span></label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>seleccionar</option>
+                                                    <option value="1">Soltero</option>
+                                                    <option value="2">Casado</option>
+                                                    <option value="1">Viudp</option>
+                                                    <option value="2">Union libre</option>
+                                                    <option value="1">Separado</option>
+                                                    
+                                                  </select>
+                                                
+                                                
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Emergencia<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Grupo Sanguineo<span class="text-danger">*</span></label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>seleccionar</option>
+                                                    <option value="1">A+</option>
+                                                    <option value="2">A-</option>
+                                                    <option value="3">B+</option>
+                                                    <option value="4">B-</option>
+                                                    <option value="5">AB+</option>
+                                                    <option value="6">AB-</option>
+                                                    <option value="7">O+</option>
+                                                    <option value="8">O-</option>
+                                                    
+                                                  </select>
+                                                
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>VIH<span class="text-danger">*</span></label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>seleccionar</option>
+                                                    <option value="1">Si</option>
+                                                    <option value="2">No</option>
+                                                   
+                                                  </select>
+                                                
+                                                
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Ocupacion<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Peso<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Talla<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Alergico<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Medicamento Que Toma Actualmente<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <label>Enfermedad Que Tiene<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class=""></i></div>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <button type="submit" class="btn btn-primary px-4 float-end mt-4">Registrar</button>
+                                            </div>
+                                            <div class="col-4">
+                                                <button type="submit" class="btn btn-primary px-4 float-end mt-4">Limpiar</button>
+                                            </div>
+
+                                         
+                </div>
+                <footer>
+                    &copy David Mendoza 2023
+                </footer>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+                
+                    
+                </body>
+                </html>
